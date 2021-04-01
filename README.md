@@ -2,6 +2,8 @@
 
 Usar Yarn debido a que aproveche la oportunidad para probar integrar react con tailwind y con npm me daba fallas.
 
+### `yarn install`
+
 # Node Version
 
 v14.15.1
