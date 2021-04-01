@@ -1,3 +1,19 @@
+# Consideraciones
+
+Usar Yarn debido a que aproveche la oportunidad para probar integrar react con tailwind y con npm me daba fallas.
+
+# Node Version
+
+v14.15.1
+
+# NPM Version
+
+6.14.11
+
+# Yarn Version
+
+1.22.10
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
