@@ -66,7 +66,7 @@ function App() {
         const character_data = await Promise.all(
           episode.characters.map(async (url) => {
             const character_info = await axios.get(url, {
-              "Content-Type": "text/plain",
+              "Content-Type": "application/json",
             });
             return {
               characterOrigin: character_info.data.origin.name,
@@ -304,7 +304,7 @@ function App() {
                                   {uniqueOriginsEpisodes &&
                                     uniqueOriginsEpisodes.length > 0 && (
                                       <>
-                                        {"("}total:{" "}
+                                        {" ("}total:{" "}
                                         {
                                           uniqueOriginsEpisodes.filter(
                                             (epi) => {

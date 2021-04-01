@@ -1,8 +1,13 @@
 # Consideraciones
 
-Usar Yarn debido a que aproveche la oportunidad para probar integrar react con tailwind y con npm me daba fallas.
-
 ### `yarn install`
+
+o
+
+### `npm install`
+
+El proyecto fue creado usado Yarn, sin embargo realicé pruebas tambien con npm y funcionó correctamente.
+En ciertas ocasiones recibí errores de Cors, pero dado a que esto se arregla del lado del server no pude profundizar una solucion a mas de usar el plugin de google chrome, sin embargo esto me ocurrió cuando probe en otros computadores y no donde lo desarrollé. Sin embargo en una de las pruebas basto con detener la aplicacion y volver a correrla y funcionó sin necesidad de plugin de google chrome.
 
 # Node Version
 
